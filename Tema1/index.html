@@ -11,139 +11,107 @@
 </head>
 
 <body>
-  <header>
-<img src="images/logo.png" alt="logo">
-<nav>
-<ul>
-<li><a href="#home" class="heading">Home</a></li>
-<li><div class="dropdown">
-    <button class="dropbtn">
-      <a href="#thingstodo" class="heading">Things to Do</a>
-    </button>
-    <div class="dropdown-content">
-      <a href="#slides" class="heading">Rides & Slides</a>
-      <a href="#kids" class="heading">Fun for Kids</a>
-      <a href="#relax" class="heading">Relax and Unwind</a>
+  <div class="header">
+    <a href="#home" class="logo"><img src="images/logo.png" alt="logo"></a>
+    <div class="header-right">
+      <a href="#home">Home</a>
+      <div class="dropdown">
+          <button class="dropbtn">
+            <a href="#thingstodo" class="heading">Things to Do</a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#slides" class="heading">Rides & Slides</a>
+            <a href="#kids" class="heading">Fun for Kids</a>
+            <a href="#relax" class="heading">Relax and Unwind</a>
+          </div>
+        </div>
+      <a href="#tickets" class="heading">Tickets</a>
+      <a href="#contact" class="heading">Contact</a>
     </div>
-  </div></li>
-<li><a href="#tickets" class="heading">Tickets</a></li>
-<li><a href="#contact" class="heading">Contact</a></li>
-</ul>
-</nav>
-
-</header>
+  </div>
 
 
   <section class="section-home" id="home">
-      <div class="page-content-width">
-
-          <div class="textbox white-bg">
-              <h1 class="heading1">Welcome!</h2>
-              <p class="p2">From high-speed water slides and exhilarating wave pools to tranquil beaches and the remarkable animal habitats that are the hallmark of SeaWorld, Aquatica Orlando delights all ages and interests. This one-of-a-kind waterpark is home to some of the world's most thrilling water rides, featuring 42 slides, rivers and lagoons and 84,000 square feet of sparkling white, sandy beaches.</p>
-              <a href="#thingstodo" class="btn heading">Let's Begin</a>
-          </div>
-      </div>
+    <div class="textbox">
+<div class="content">
+  <h2 class="heading1">Welcome!</h2>
+  <p class="max-lines">From high-speed water slides and exhilarating wave pools to tranquil beaches and the remarkable animal habitats that are the hallmark of SeaWorld, Aquatica Orlando delights all ages and interests. This one-of-a-kind waterpark is home to some of the world's most thrilling water rides, featuring 42 slides, rivers and lagoons and 84,000 square feet of sparkling white, sandy beaches.</p>
+    <a href="#thingstodo" class="btn">Let's Begin</a>
+</div>
+</div>
   </section>
 
   <section id="thingstodo" class="section">
-<div class="grid-container">
-            <h2 class="heading1">Things to Do</h2>
-            <div class="item1 flex">
-              <div class="box">
-                <span class="img-wrap">
-                  <img src="images/slides.jpg" alt="Image">
-                  <br><br>
-                    <a href="#slides" class="btn2">Rides & Slides</a>
-                </span>
-                </div>
-
-            </div>
-            <h2 class="heading1">Things to Do</h2>
-            <div class="item2 flex">
-              <div class="box">
-                <span class="img-wrap">
-                  <img src="images/kids.jpg" alt="Image">
-                  <br><br><br>
-                  <a href="#kids" class="btn2">Fun for Kids</a>
-                </span>
-                </div>
-
-            </div>
-            <h2 class="heading1">Things to Do</h2>
-            <div class="item3 flex">
-              <div class="box">
-                <span class="img-wrap">
-                  <img src="images/relax.jpg" alt="Image">
-                </span>
-                <a href="#relax" class="btn2">Relax and Unwind</a>
-              </div>
-            </div>
+<div id="asez">
+  <h2 class="heading1">Things to Do</h1>
+    <div class="card">
+  <img src="images/slides.jpg" class="imagine" alt="slides" style="width:100%">
+  <a href="#slides" class="btn2">Rides & Slides</a>
 </div>
-</section>
+<div class="card">
+<img src="images/kids.jpg" class="imagine" alt="kids" style="width:100%">
+<a href="#kids" class="btn2">Fun for Kids</a>
+</div>
 
-  <section class="section" id="slides">
-    <div class="grid-container">
-      <h2 class="heading2">Rides & Slides</h2>
+<div class="card">
+<img src="images/relax.jpg" class="imagine" alt="relax" style="width:100%">
+<a href="#relax" class="btn2">Relax and Unwind</a>
+</div></div></section>
 
-      <div class="img pos1 flex">
-        <h2 class="heading2">Riptide Race</h2>
-        <img src="images/riptide.jpg" alt="riptide">
-      </div>
+  <section class="section flex-col" id="slides">
 
-  <div class="img pos2 flex">
-    <h2 class="heading2">Ray Rush</h2>
-  <img src="images/rayrush.jpg" alt="rayrush">
-    </div>
+  <div id="galerie">
+    <figure class="img3">
+      <img class="imagine" src="images/riptide.jpg" alt="Example image">
+    </figure>
+        <figure class="img3">
+      <img class="imagine" src="images/rayrush.jpg" alt="Example image">
+      </figure>
+        <figure class="img3">
+      <img class="imagine" src="images/loggerhead.png" alt="Example image">
+      </figure>
+        <figure class="img3">
+      <img class="imagine" src="images/dolphinplunge.jpg" alt="Example image">
+      </figure>
+        <figure class="img3">
+      <img class="imagine" src="images/walhalla.jpg" alt="Example image">
+    </figure>
+    <figure class="img3">
+  <img class="imagine" src="images/relax2.jpg" alt="Example image">
+</figure>
+   </div>
 
-    <div class="img pos3 flex">
-      <h2 class="heading2">Loggerhead Lane</h2>
-    <img src="images/loggerhead.png" alt="loggerhead">
-      </div>
-
-      <div class="img pos4 flex">
-        <h2 class="heading2">Dolphin Plunge</h2>
-      <img src="images/dolphinplunge.jpg" alt="dolphinplunge">
-        </div>
-
-       <div class="img pos5 flex">
-         <h2 class="heading2">Walhalla Wave</h2>
-      <img src="images/walhalla.jpg" alt="walhalla">
-        </div>
-
-  </div>
   </section>
 
   <section class="section" id="kids">
-    <div class="grid-container2">
-      <h2 class="heading2">Fun for Kids</h2>
-      <div class="pos6">
-      </div>
-      <div class="pos7">
+    <article lang="en">
 
-        <p class="p2">"If you're a kid, Kata's Kookaburra Cove is the coolest place in the park to be.
-Named for a little bitty bird with a big call that sounds like someone tickled its funny bone, this kooky, quirky cove has a way of making even a grown-up want to jump right in and play. With a beginner's body slide, water spouts and silly spilly rides, kids can laugh it up all day long- and so can you!"</p>
-      </div>
-      <div class="pos8">
 
-        <p class="p1">"With its whimsical character and a seemingly endless sea of fun, Walkabout Waters is one of the most talked-about places in the park for kids."</p>
-      </div>
-      <div class="pos9">
-      </div>
+    <div class="example-container">
 
-    </div>
+        <div class="image-example"></div>
+        <p class="main-para">
+          "If you're a kid, Kata's Kookaburra Cove is the coolest place in the park to be.
+      Named for a little bitty bird with a big call that sounds like someone tickled its funny bone, this kooky, quirky cove has a way of making even a grown-up want to jump right in and play. With a beginner's body slide, water spouts and silly spilly rides, kids can laugh it up all day long- and so can you!"</p>
+  <p class="main-para">"With its whimsical character and a seemingly endless sea of fun, Walkabout Waters is one of the most talked-about places in the park for kids."</p>
+  </div>
+
   </section>
 
   <section class="section" id="relax">
-    <div class="grid-container3">
-      <div class="pos10">
+    <div class="section2 group">
+  	<div class="col span_1_of_4">
+  	</div>
+  	<div class="col span_2_of_4">
+        <img src="images/relax1.jpg" alt="Image">
+  	</div>
+  	<div class="col span_3_of_4">
+      <p class="main-para">"Nothing is more relaxing than lying out on the beach. Aquatica invites you to relax under the sun on the beaches of Cutback Cove and Big Surf Shores. Grab a complimentary lounge chair for even more relaxation or upgrade to a wave pool lounger with an attached shade top. You can also enjoy the ultimate relaxation with a cabana rental."</p>
       </div>
-
-    <div class="pos11>
-      <h2 class="heading2">Relax and Unwind</h2>
-        <p class="p3">"Nothing is more relaxing than lying out on the beach. Aquatica invites you to relax under the sun on the beaches of Cutback Cove and Big Surf Shores. Grab a complimentary lounge chair for even more relaxation or upgrade to a wave pool lounger with an attached shade top. You can also enjoy the ultimate relaxation with a cabana rental."</p>
-      </div>
-
+  	<div class="col span_4_of_4">
+  	</div>
   </div>
+
   </section>
 
   <section class="section" id="tickets">
@@ -157,12 +125,13 @@ Named for a little bitty bird with a big call that sounds like someone tickled i
   </section>
 
 
-    <section class="section" id="contact">
+    <section class="section section-contact" id="contact">
         <div class="page-content-width">
-            <div class="translucent-white-bg textbox content-box textbox-full-height">
+            <div class="textbox>
                 <h2 class="heading4">Contact Us</h2>
 
                 <!-- contact form -->
+
                 <form action="index.html" method="post" class="tm-contact-form">
                     <div class="form-group">
                         <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
