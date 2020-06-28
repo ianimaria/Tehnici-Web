@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <title>Aquatica</title>
+
+</head>
+
+<body onload=myFunction(),FindLink()>
+  <div class="header">
+    <a href="#home" class="logo"><img src="images/logo.png" alt="logo"></a>
+    <div class="header-right">
+      <a href="#home" class="findbtn" onclick=FindLink()>Home</a>
+      <div class="dropdown">
+          <button class="dropbtn">
+            <a href="#thingstodo" class="heading findbtn" onclick=FindLink()>Things to Do</a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#slides" class="heading findbtn" onclick=FindLink()>Rides & Slides</a>
+            <a href="#kids" class="heading findbtn" onclick=FindLink()>Fun for Kids</a>
+            <a href="#relax" class="heading findbtn" onclick=FindLink()>Relax and Unwind</a>
+          </div>
+        </div>
+      <a href="#tickets" dLink() class="heading findbtn" onclick=FindLink()>Tickets</a>
+      <a href="#contact" class="heading findbtn" onclick=FindLink()>Contact</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 id="demo">Time left until opening</h1>
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+     </div>
+
+<div class="row">
+<div class="column">
+    <img src="images/1.jpg" style="width:100%; display: block;">
+</div>
+<div class="column" id="changeinfo">
+ </div>
+<div class="column">
+    <img src="images/2.jpg" style="width:100%; display: block;">
+</div>
+</div>
+<br>
+<button onclick=HideShow() class="imgbttn" id="imgbtn">Hide Images</button>
+
+<h1 id="animation1" class="span2" style="font-size: 20px; margin-left: 5%;">Experience thrilling and extraordinary water rides for the whole family.</h1>
+<h1 id="animation2" class="span2" style="float:right; font-size: 20px; margin-right: 5%;">Take a moment to relax on Orlando's favorite beaches and more.</h1>
+<script src="script.js"></script> 
+</body>
+  </html>
